@@ -1,0 +1,54 @@
+2025-10-31T08:05:12.391Z [info] GitSafeOps listening on 3000
+2025-10-31T08:05:53.034Z [error] Request failed with status code 404
+2025-10-31T08:07:42.576Z [error] Request failed with status code 404
+2025-10-31T08:09:55.122Z [error] Request failed with status code 404
+2025-10-31T08:10:09.651Z [error] Request failed with status code 404
+2025-10-31T08:11:18.056Z [info] GitSafeOps listening on 3000
+2025-10-31T08:11:22.150Z [error] Request failed with status code 404
+2025-10-31T08:12:50.740Z [error] Request failed with status code 404
+2025-10-31T08:13:32.105Z [info] GitSafeOps listening on 3000
+2025-10-31T08:13:35.167Z [error] scanRepo error for https:/: Request failed with status code 404
+2025-10-31T08:17:29.861Z [error] scanRepo error for https:/: Request failed with status code 404
+2025-10-31T08:18:30.411Z [error] scanRepo error for https:/: Request failed with status code 404
+2025-10-31T08:18:56.762Z [info] 🚀 GitSafeOps listening on port 3000
+2025-10-31T08:20:49.130Z [info] 🚀 GitSafeOps listening on port 3000
+2025-10-31T08:22:39.188Z [info] 🚀 GitSafeOps listening on port 3000
+2025-10-31T08:22:42.816Z [info] Scanning repo: sravankm45/test-security-repo
+2025-10-31T08:22:42.816Z [info] Finding added: 37546e6e-d2a4-4b44-83a5-56db71d12aa0 repo_visibility high
+2025-10-31T08:22:43.208Z [info] Finding added: cdc7fcbd-2c42-49e8-8e4b-b089e49d4244 branch_protection_missing high
+2025-10-31T08:32:39.796Z [info] 🚀 GitSafeOps listening on port 3000
+2025-10-31T08:32:59.857Z [info] 🚀 GitSafeOps listening on port 3000
+2025-10-31T08:33:49.655Z [info] Scanning repo: sravankm45/test-security-repo
+2025-10-31T08:33:49.656Z [info] Finding added: 17633d70-44a6-4d2e-bc7b-90a0376ed6d5 repo_visibility high
+2025-10-31T08:33:50.028Z [info] Finding added: 29a731ab-5b06-404e-848c-51b0c51fe027 branch_protection_missing high
+2025-10-31T08:33:52.502Z [info] Finding added: c5c77d94-b36e-4288-99e7-84164836b99d secret_in_file high
+2025-10-31T08:33:52.502Z [info] Finding added: 27ac1b81-0207-4f92-b222-063c43aa1f7c secret_in_file high
+2025-10-31T08:33:52.503Z [info] Finding added: 21b7733d-e31c-4586-9b12-7b19070ba6d9 high_entropy_string medium
+2025-10-31T08:33:52.503Z [info] Finding added: 15c1bb41-1cea-4e59-87c6-9d613dccf071 high_entropy_string medium
+2025-10-31T09:07:26.817Z [info] Scanning repo: sravankm45/test-security-repo
+2025-10-31T09:07:26.817Z [info] Finding added: 04809413-5b42-48a3-a112-c87896387c2c repo_visibility high
+2025-10-31T09:07:27.186Z [info] Finding added: 6cd41d62-7c1c-41ae-9e13-19f35282b03f branch_protection_missing high
+2025-10-31T09:07:29.681Z [info] Finding added: 4f62021b-ac37-4a6a-ab2e-5378ba38b169 secret_in_file high
+2025-10-31T09:07:29.681Z [info] Finding added: 90393809-cf6c-47a4-9458-c71d1d143aa2 secret_in_file high
+2025-10-31T09:07:29.681Z [info] Finding added: 9d7b172b-5272-4e47-820a-64dc894a3fa4 high_entropy_string medium
+2025-10-31T09:07:29.681Z [info] Finding added: 318ca029-3399-43c0-8fdd-8a18d844f937 high_entropy_string medium
+2025-10-31T09:07:30.909Z [info] Finding added: 881f12ca-9d7c-40da-95fd-1be9a82ffcfb inactive_collaborator medium
+2025-10-31T09:12:23.195Z [info] 🚀 GitSafeOps listening on port 3000
+2025-10-31T09:13:37.002Z [info] 🚀 GitSafeOps listening on port 3000
+2025-10-31T09:17:55.050Z [info] 🚀 GitSafeOps listening on port 3000
+2025-10-31T09:18:01.597Z [info] 🚀 GitSafeOps listening on port 3000
+2025-10-31T09:18:07.013Z [info] 🚀 GitSafeOps listening on port 3000
+2025-10-31T09:19:24.778Z [info] 🚀 GitSafeOps listening on port 3000
+2025-10-31T09:20:43.414Z [info] 🚀 GitSafeOps listening on port 3000
+2025-10-31T09:21:15.409Z [info] Server listening on port 3000
+2025-10-31T09:21:30.122Z [info] Server listening on port 3000
+2025-10-31T09:21:39.784Z [info] Scanning repo: sravankm45/test-security-repo
+2025-10-31T09:21:39.785Z [info] Finding added: ae6e73e7-2562-40b7-983d-317780bc3185 repo_visibility high
+2025-10-31T09:21:40.158Z [info] Finding added: ac17f81a-3786-4466-a466-64024aff9c8e branch_protection_missing high
+2025-10-31T09:21:42.805Z [info] Finding added: 52a258d2-ab2f-4742-bd46-96939661ffd7 secret_in_file high
+2025-10-31T09:21:42.805Z [info] Finding added: 6ee495ef-678e-47d7-9e9b-cc9a555b4938 secret_in_file high
+2025-10-31T09:21:42.806Z [info] Finding added: 262254ac-e1af-4342-a5bb-b6501d536891 high_entropy_string medium
+2025-10-31T09:21:42.808Z [info] Finding added: a4612d4b-34bc-45a7-b61a-959ce54823d0 high_entropy_string medium
+2025-10-31T09:21:43.978Z [info] Finding added: dbfe3fff-8090-4a21-9a3d-0ba63b84e6c5 inactive_collaborator medium
+2025-10-31T09:22:03.577Z [info] Revoking access for inactive collaborator: sravankm452
+2025-10-31T09:22:04.079Z [info] Successfully removed sravankm452 from sravankm45/test-security-repo
