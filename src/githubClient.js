@@ -60,4 +60,14 @@ async function createIssue(owner, repo, title, body) {
   return res.data;
 }
 
-module.exports = { client, listOrgRepos, getRepo, listCollaborators, listCommits, getBranchProtection, listPulls, getPullFiles, getFileContent, removeCollaborator, createIssue };
+async function listPullCommits(owner, repo, pull_number) {
+  try {
+    const res = await client.get(`/repos/${owner}/${repo}/pulls/${pull_number}/commits`);
+    return res.data;
+  } catch (err) {
+    logger.error(`Error fetching commits for PR #${pull_number} in ${owner}/${repo}: ${err.message}`);
+    return [];
+  }
+}
+
+module.exports = { client, listOrgRepos, getRepo, listCollaborators, listCommits, getBranchProtection, listPulls, getPullFiles, getFileContent, removeCollaborator, createIssue, listPullCommits };
